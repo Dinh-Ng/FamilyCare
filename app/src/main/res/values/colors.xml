@@ -2,4 +2,17 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="bg_screen">#F2F9F6</color>
+    <color name="bg_top_pill">#E2F4ED</color>
+    <color name="bg_badge_mint">#C5ECE0</color>
+    <color name="bg_circle_icon">#E8F5EE</color>
+    <color name="teal_primary">#035E4B</color>
+    <color name="teal_text">#0C6855</color>
+    <color name="text_dark">#0B1914</color>
+    <color name="text_gray">#667085</color>
+    <color name="text_hint">#98A2B3</color>
+    <color name="text_red">#D92D20</color>
+    <color name="input_bg">#FFFFFF</color>
+    <color name="input_stroke">#E4E7EC</color>
+    <color name="divider_line">#EAECF0</color>
 </resources>
