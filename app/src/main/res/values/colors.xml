@@ -2,4 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- FamilyCare App Theme Colors -->
+    <color name="primary_teal">#045D40</color>
+    <color name="primary_teal_dark">#023E2A</color>
+    <color name="bg_screen">#EEF7F2</color>
+    <color name="bg_card">#F5FAF7</color>
+    <color name="pill_header_bg">#D8EFE5</color>
+    <color name="pill_badge_bg">#B2EAD4</color>
+    <color name="input_bg">#FFFFFF</color>
+    <color name="input_border">#E2E8F0</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="divider_line">#E2E8F0</color>
 </resources>
