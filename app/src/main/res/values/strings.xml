@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Family Care</string>
+    <string name="app_slogan">Đồng hành sức khỏe cùng gia đình bạn</string>
+    <string name="badge_login">ĐĂNG NHẬP TÀI KHOẢN</string>
+    <string name="label_email_username">Email / Tên đăng nhập</string>
+    <string name="hint_email">example@gmail.com</string>
+    <string name="label_password">Mật khẩu</string>
+    <string name="remember_login">Ghi nhớ đăng nhập</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="or_continue_with">Hoặc tiếp tục với</string>
+    <string name="login_with_google">Đăng nhập bằng Google</string>
+    <string name="no_account_prefix">Chưa có tài khoản? </string>
+    <string name="register_now">Đăng ký ngay</string>
+
+    <string name="badge_register">Hồ sơ Y tế &amp; Dinh dưỡng</string>
+    <string name="title_register">Tạo tài khoản mới</string>
+    <string name="label_fullname">Họ và tên *</string>
+    <string name="hint_fullname">Nguyễn Văn A</string>
+    <string name="label_email_required">Địa chỉ Email *</string>
+    <string name="hint_email_register">nguyen@example.com</string>
+    <string name="label_password_required">Mật khẩu *</string>
+    <string name="min_6_chars">Tối thiểu 6 ký tự</string>
+    <string name="hint_enter_password">Nhập mật khẩu</string>
+    <string name="label_confirm_password">Xác nhận mật khẩu *</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+    <string name="agree_terms_prefix">Tôi đồng ý với </string>
+    <string name="terms_of_service">Điều khoản dịch vụ</string>
+    <string name="agree_terms_and"> và </string>
+    <string name="privacy_policy">Chính sách bảo mật dữ liệu y tế</string>
+    <string name="agree_terms_suffix"> của gia đình.</string>
+    <string name="btn_register">Đăng ký tài khoản</string>
+    <string name="or_quick_register">Hoặc đăng ký nhanh bằng</string>
+    <string name="register_with_google">Đăng ký với Google</string>
+    <string name="already_have_account_prefix">Đã có tài khoản gia đình? </string>
+    <string name="login">Đăng nhập</string>
 </resources>
