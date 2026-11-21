@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Family Care</string>
+    <string name="family_care_logo">Biểu tượng Family Care</string>
+    <string name="verified_badge">Đã xác minh</string>
+    <string name="login_tagline">Đồng hành sức khỏe cùng gia đình bạn</string>
+    <string name="login_badge">ĐĂNG NHẬP TÀI KHOẢN</string>
+    <string name="email_label">Email / Tên đăng nhập</string>
+    <string name="email_hint">example@gmail.com</string>
+    <string name="password_label">Mật khẩu</string>
+    <string name="password_hint">••••••••</string>
+    <string name="toggle_password">Ẩn hoặc hiện mật khẩu</string>
+    <string name="remember_login">Ghi nhớ đăng nhập</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="login_button">Đăng nhập  →</string>
+    <string name="or_continue">Hoặc tiếp tục với</string>
+    <string name="google_logo">Google</string>
+    <string name="google_login">Đăng nhập bằng Google</string>
+    <string name="no_account">Chưa có tài khoản? </string>
+    <string name="register_now">Đăng ký ngay</string>
 </resources>
