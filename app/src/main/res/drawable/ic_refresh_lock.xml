@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Circular arrow (rotate-cw) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#9CA3AF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M3,12a9,9 0,1 0 9,-9c-2.52,0 -4.93,1 -6.74,2.74L3,8"/>
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#9CA3AF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M3,3v5h5"/>
+    <!-- Lock in center -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#9CA3AF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M10,12v-1.5a2,2 0,0 1,4 0V12m-5,0h6v5h-6z"/>
+</vector>
