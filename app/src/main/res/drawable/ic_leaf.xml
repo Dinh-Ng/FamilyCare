@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <!-- Top Leaf -->
+  <path
+      android:fillColor="#064E3B"
+      android:pathData="M12,2c0,0 -4,4 -4,8c0,2.21 1.79,4 4,4s4,-1.79 4,-4c0,-4 -4,-8 -4,-8z"/>
+  <!-- Left Leaf -->
+  <path
+      android:fillColor="#064E3B"
+      android:pathData="M6.5,11c-2.21,0 -4,1.79 -4,4s1.79,4 4,4c1.1,0 2.1,-0.45 2.83,-1.17C8.5,16.5 7.5,14 6.5,11z"/>
+  <!-- Right Leaf -->
+  <path
+      android:fillColor="#064E3B"
+      android:pathData="M17.5,11c2.21,0 4,1.79 4,4s-1.79,4 -4,4c-1.1,0 -2.1,-0.45 -2.83,-1.17C15.5,16.5 16.5,14 17.5,11z"/>
+  <!-- Stem -->
+  <path
+      android:fillColor="#064E3B"
+      android:pathData="M11,15h2v7h-2z"/>
+</vector>
