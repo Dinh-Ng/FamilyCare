@@ -24,6 +24,7 @@
                 android:layout_width="34dp"
                 android:layout_height="34dp"
                 android:gravity="center"
+                android:id="@+id/btnRoleBack"
                 android:text="‹"
                 android:textColor="#355B52"
                 android:textSize="28sp" />
@@ -87,10 +88,13 @@
             android:textStyle="bold" />
 
         <LinearLayout
+            android:id="@+id/cardParentRole"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
             android:background="@drawable/bg_login_card"
+            android:clickable="true"
+            android:focusable="true"
             android:orientation="vertical"
             android:padding="14dp">
 
@@ -130,6 +134,7 @@
                         android:textStyle="bold" />
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/indicatorParent"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:background="@drawable/bg_primary_button"
@@ -158,10 +163,13 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/cardMemberRole"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:background="@drawable/bg_login_card"
+            android:clickable="true"
+            android:focusable="true"
             android:orientation="vertical"
             android:padding="14dp">
             <LinearLayout
@@ -200,6 +208,7 @@
                         android:textStyle="bold" />
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/indicatorMember"
                     android:layout_width="22dp"
                     android:layout_height="22dp"
                     android:background="@drawable/bg_input"
@@ -231,6 +240,7 @@
             android:layout_marginTop="14dp"
             android:background="@drawable/bg_primary_button"
             android:gravity="center"
+            android:id="@+id/btnContinueRole"
             android:text="Tiếp tục với vai trò Bố / Mẹ  →"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
