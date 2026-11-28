@@ -15,34 +15,43 @@
         android:paddingEnd="18dp"
         android:paddingBottom="20dp">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="36dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
             <TextView
-                android:layout_width="34dp"
-                android:layout_height="34dp"
-                android:gravity="center"
                 android:id="@+id/btnRegisterBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="center"
                 android:text="‹"
                 android:textColor="#355B52"
                 android:textSize="28sp" />
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_marginStart="52dp"
-                android:src="@drawable/ic_family_care"
-                android:contentDescription="Family Care" />
-            <TextView
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:text="Family Care"
-                android:textColor="#315B50"
-                android:textSize="11sp"
-                android:textStyle="bold" />
-        </LinearLayout>
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:contentDescription="Family Care"
+                    android:src="@drawable/ic_family_care" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:text="Family Care"
+                    android:textColor="#315B50"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </FrameLayout>
 
         <TextView
             android:layout_width="wrap_content"
