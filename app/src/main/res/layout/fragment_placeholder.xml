@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewHealth"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F4FAF8"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    android:paddingBottom="24dp">
 
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="12dp">
 
-</FrameLayout>
+        <!-- 1. Header Bar Component -->
+        <include layout="@layout/layout_health_header" />
+
+        <!-- 2. Family Members Component -->
+        <include layout="@layout/layout_health_members" />
+
+        <!-- 3. Physical Indicators Component -->
+        <include layout="@layout/layout_health_physical_indicators" />
+
+        <!-- 4. Adult BMI Gauge Component -->
+        <include layout="@layout/layout_health_bmi_gauge" />
+
+        <!-- 5. WHO Growth Chart Component -->
+        <include layout="@layout/layout_health_who_growth_chart" />
+
+        <!-- 6. Alerts & Medical History Component -->
+        <include layout="@layout/layout_health_medical_history" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
