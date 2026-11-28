@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="24dp"
+    android:background="@drawable/bg_card_white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Section Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dinh dưỡng hôm nay"
+            android:textColor="@color/text_main"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem thực đơn cả tuần ›"
+            android:textColor="@color/teal_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Banner Box with Rounded Corners -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <!-- Background Image -->
+        <ImageView
+            android:id="@+id/imgMealBanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Bữa trưa gia đình"
+            android:scaleType="centerCrop"
+            android:src="@drawable/buacom" />
+
+        <!-- Gradient Overlay -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_gradient_overlay" />
+
+        <!-- Top-left Badge -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_margin="12dp"
+            android:background="@drawable/bg_badge_tag"
+            android:paddingStart="10dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="4dp"
+            android:text="Bữa trưa gia đình"
+            android:textColor="@color/teal_primary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <!-- Bottom Content -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tvMealTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/tvMealCalories"
+                android:text="Canh chua cá lóc &amp; Thịt kho"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMealCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="#40000000"
+                android:paddingStart="8dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="3dp"
+                android:text="~620 kcal/người"
+                android:textColor="#CCFBF1"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <!-- Dòng loại trừ dị ứng -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_allergy_warning"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:contentDescription="Cảnh báo dị ứng"
+            android:src="@drawable/ic_allergy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Đã loại trừ:"
+            android:textColor="@color/allergy_text"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAllergyNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Hải sản vỏ cứng (Dị ứng của Mẹ Lan)"
+            android:textColor="@color/allergy_text"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- Mô tả thực đơn -->
+    <TextView
+        android:id="@+id/tvMealDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Rau muống luộc dầm me • Cơm gạo lứt • Đủ 4 nhóm chất"
+        android:textColor="@color/text_sub"
+        android:textSize="13.5sp" />
+
+    <!-- Button Xem gợi ý chi tiết & công thức nấu -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnViewRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_btn_light_teal"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="Xem gợi ý chi tiết &amp; công thức nấu"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_primary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

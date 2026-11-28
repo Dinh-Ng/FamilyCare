@@ -20,4 +20,8 @@
     <style name="BottomNavTextInactive" parent="@style/TextAppearance.MaterialComponents.Caption">
         <item name="android:textSize">12sp</item>
     </style>
+
+    <style name="CircularImageView">
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>
