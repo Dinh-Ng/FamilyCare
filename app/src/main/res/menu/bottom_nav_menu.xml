@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_nav"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/nav_health"
+        android:icon="@drawable/ic_health_nav"
+        android:title="Sức khỏe" />
+
+    <item
+        android:id="@+id/nav_nutrition"
+        android:icon="@drawable/ic_nutrition_nav"
+        android:title="Dinh dưỡng" />
+
+    <item
+        android:id="@+id/nav_schedule"
+        android:icon="@drawable/ic_schedule_nav"
+        android:title="Lịch &amp; Ký" />
+
+</menu>
