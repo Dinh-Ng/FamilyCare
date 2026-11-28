@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="300"
+    android:viewportHeight="120">
+
+    <!-- Grid lines -->
+    <path
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="1"
+        android:pathData="M30,20 L290,20 M30,50 L290,50 M30,80 L290,80 M30,110 L290,110" />
+
+    <!-- Red dashed upper bound (+2SD) -->
+    <path
+        android:strokeColor="#FCA5A5"
+        android:strokeWidth="1.5"
+        android:pathData="M30,70 Q150,45 290,25" />
+
+    <!-- Red dashed lower bound (-2SD) -->
+    <path
+        android:strokeColor="#FCA5A5"
+        android:strokeWidth="1.5"
+        android:pathData="M30,105 Q150,90 290,75" />
+
+    <!-- Standard WHO Curve (Center Green) -->
+    <path
+        android:strokeColor="#0F5C4C"
+        android:strokeWidth="2.5"
+        android:pathData="M30,90 Q150,68 290,48" />
+
+    <!-- Actual Bé Bo Data Line (Dark Teal with dots) -->
+    <path
+        android:strokeColor="#047857"
+        android:strokeWidth="3"
+        android:pathData="M70,95 L145,80 L200,65 L270,42" />
+
+    <!-- Actual Data Dots -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M70,95 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M145,80 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M200,65 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M270,42 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+</vector>
